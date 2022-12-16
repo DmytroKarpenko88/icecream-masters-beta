@@ -1,0 +1,18 @@
+.header {
+  position: relative;
+  min-width: 320px;
+  height: 502px;
+  background-size: cover;
+  background-image: url(../images/header/hero-fill.jpg);
+
+  &__wrapper {
+    display: flex;
+    align-items: center;
+    margin-bottom: 50px;
+  }
+
+  &__logo-img {
+    margin-top: 12px;
+    margin-left: 20px;
+  }
+}
